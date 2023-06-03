@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9a53a2367f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" alt="logo"> -->
+                <span id="c">C<span id="remain">hetan.</span></span>
+                <ul id="sidemenu">
+                    <li><a href='#header'>Home</a> </li>
+                    <li><a href='#about'>About</a> </li>
+                    <li><a href='#services'>Services</a> </li>
+                    <li><a href='#portfolio'>Portfolio</a> </li>
+                    <li><a href='#contact'>Contact</a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi,I'm <span>Chetan</span><br>Patil From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------------------About------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/chetan.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Enthusiastically seeking a fulfilling position within a prestigious organization, where I can fully utilize my skills, continuously enhance my knowledge, and genuinely contribute to the company's remarkable success. With a strong focus on frontend development and a solid foundation in C++, I am driven by a passion for learning and staying updated with the latest industry trends. Dedicated to creating visually appealing and user-friendly web interfaces, I possess a problem-solving mindset and excel in collaborating with cross-functional teams. Eager to join a team and make a valuable impact as a Frontend Developer while embracing opportunities for growth.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C++</span><br>Solid Foundation of programming language</li>
+                            <li><span>Java</span><br>Fundamental knowledgeof programming language</li>
+                            <li><span>Frontend development</span><br>Designing Web interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>web development</span><br>Experience in developing responsive designs</li>
+                            <li><span>c++</span><br>Experience in solving complex problems</li>
+                            <li><span>_</span><br>_</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E. E&TC</span><br>CGPA: x.xx</li>
+                            <li><span>12th</span><br>Percentage: xx.xx</li>
+                            <li><span>10th</span><br>Percentage: xx.xx</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .................SERVICES.........................  -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Frontend web design is the art and science of creating visually appealing and user-friendly interfaces for websites. It involves the creative and technical process of designing the look, feel, and overall user experience of a website's frontend, which is the part of the website that users interact with directly.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Flex Design</h2>
+                    <p>Frontend flex design refers to the implementation of flexible layouts using the CSS Flexbox module in frontend web development. Flexbox is a powerful CSS layout model that allows designers and developers to create dynamic and responsive designs with ease.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Canva</h2>
+                    <p>Canva is an innovative online graphic design platform that empowers users to create stunning visual content effortlessly. It provides a user-friendly and intuitive interface, making it accessible to both design professionals and beginners with no design experience.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- ..........................Portfolio.................................  -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Ecommerce website</h3>
+                    <p>Our e-commerce website is designed to provide a seamless online shopping experience for customers. The website is built using HTML, CSS, and JavaScript, ensuring a visually appealing and interactive interface.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Spotify web</h3>
+                    <p>Building a Spotify app using HTML, CSS, and JavaScript would involve creating a web-based application that mimics the functionality and design of the popular music streaming platform, Spotify.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Travel web</h3>
+                    <p>Welcome to our travel website, your ultimate destination for discovering and planning unforgettable journeys. Our website is designed to inspire, inform, and assist travelers in creating their dream vacations.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ........................Contact.......................  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-brands fa-facebook"></i>chetan249581@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i>9359915709</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <button type="reset" class="btn btn2">reset form</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <!-- <p>copyright  &#169;Chetan<i class="fa-solid fa-heart"></i> personal portfolio</p> -->
+        <p>copyright  &#169;Chetan<i></i> personal portfolio</p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzvHOiopvUpOhg5VCuU4voki-KzcqG0t8hiriIvuvpLgcU0T1mV9oRIhacwj3snwFBh/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully";
+                setTimeout(function(){
+                    msg.innerHTML="";
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
