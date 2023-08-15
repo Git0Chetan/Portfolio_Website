@@ -240,12 +240,15 @@ nav ul li a:hover::after{
     margin-top:50px;
 }
 .work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius:15px;
     position:relative;
     overflow:hidden;
 }
 .work img{
-    width:100%;
+    width:70%;
     border-radius: 15px;
     display:block;
     transition:transform 0.5s;
