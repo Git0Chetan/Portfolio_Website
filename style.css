@@ -476,3 +476,9 @@ nav .fa-solid{
 .services-list .a{
     padding: 10px;
 }
+
+.container .p{
+    background-color: #ababab;
+    padding: 2rem;
+    margin: 1rem;
+}
