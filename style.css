@@ -231,6 +231,7 @@ nav ul li a:hover::after{
 /* ...............portfolio...........  */
 #portfolio{
     padding:50px 0;
+    padding-bottom: 0;
 }
 
 .work-list{
@@ -301,6 +302,7 @@ nav ul li a:hover::after{
 .btn{
     display: block;
     margin: 50px auto;
+    margin-bottom: 1%;
     width:fit-content;
     border:1px solid hwb(51 28% 8% / 0.791);
     padding:14px 50px;
@@ -481,4 +483,13 @@ nav .fa-solid{
     background-color: #ababab;
     padding: 2rem;
     margin: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proj{
+    margin-bottom: 5%;
 }
